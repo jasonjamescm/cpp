@@ -23,7 +23,7 @@ int main() {;
     int loanAmount = prompt(1);
     float interest = 2.679;
     cout << loanAmount << endl;    
-    cout << "Cost of 12 month " << getMonthlyPayment(loanAmount, 12, interest) << endl;
+    cout << "Cost of 13 month " << getMonthlyPayment(loanAmount, 13, interest) << endl;
     cout << "Cost of 36 month " << getMonthlyPayment(loanAmount, 36, interest) << endl;
     return 0;
 }
